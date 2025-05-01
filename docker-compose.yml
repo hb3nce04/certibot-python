@@ -1,0 +1,5 @@
+version: '3.8'
+services:
+  certiport-bot:
+    build: .
+    env_file: .env

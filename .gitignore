@@ -1,0 +1,74 @@
+# Bytecode fájlok
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtuális környezetek
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Függőségkezelő eszközök
+.pdm.toml
+.pdm-python
+.pdm-build/
+__pypackages__/
+
+# Build és csomagolási fájlok
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# Naplófájlok
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE és szerkesztő fájlok
+.vscode/
+.idea/
+*.sublime-*
+.spyderproject
+.spyproject
+.ropeproject
+
+# Tesztelési és statikus elemző eszközök
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Dokumentációs eszközök
+/site
+
+# Cython hibakeresési szimbólumok
+cython_debug/
+
+# PyPI konfiguráció
+.pypirc
+
+# Celery fájlok
+celerybeat-schedule
+celerybeat.pid
+
+timestamp.txt
